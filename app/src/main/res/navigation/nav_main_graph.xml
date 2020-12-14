@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_main_graph"
+    app:startDestination="@id/tabsCatFragment">
+
+    <fragment
+        android:id="@+id/tabsCatFragment"
+        android:name="com.example.matrix_asaf_ben_artzy.ui.main.categories.TabsCatFragment"
+        android:label="" >
+        <action
+            android:id="@+id/action_tabsCatFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.matrix_asaf_ben_artzy.ui.main.details.ItemDetailsFragment"
+        android:label="" />
+
+</navigation>

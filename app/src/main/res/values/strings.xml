@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">matrix_asaf_ben_artzy</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="heb_all_cupons">כל ההטבות</string>
+    <string name="heb_recommended">המומלצים</string>
+    <string name="heb_my_pinukim">הפינוקים שלי</string>
+    <string name="heb_favorites">המועדפים</string>
+</resources>
